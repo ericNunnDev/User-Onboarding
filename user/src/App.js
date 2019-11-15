@@ -1,11 +1,11 @@
 import React from 'react';
-import UserForm from './components/UserForm';
-import './App.scss';
+import FormikUserForm from './components/UserForm';
+import './styles/App.scss';
 
 function App() {
   return (
     <div className="App">
-      <UserForm />
+      <FormikUserForm />
     </div>
   );
 }
